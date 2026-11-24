@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="14dp"
+    android:paddingHorizontal="4dp">
+
+    <TextView
+        android:id="@+id/tvWeek"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        android:textColor="@color/text_main"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/ivForecast"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_weight="0.8"
+        android:contentDescription="预报图标" />
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text_sub"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.6"
+        android:gravity="end"
+        android:textColor="@color/text_main"
+        android:textSize="14sp" />
+</LinearLayout>
